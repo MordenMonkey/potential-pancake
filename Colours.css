@@ -1,0 +1,30 @@
+body {
+    background-image: linear-gradient(to top, rgb(72, 89, 151) 1%,rgb(23, 22, 95) 55%, rgb(1, 21, 242) 35%, rgb(55, 202, 255) 100% );
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: large;
+}
+
+.HyperLink {
+    text-decoration: none;
+    color: inherit;
+}
+
+.HyperLink:hover {
+    color: red;
+}

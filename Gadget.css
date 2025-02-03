@@ -1,0 +1,56 @@
+body {
+    background-color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: auto;
+    padding: auto;
+}
+
+button {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+header {
+    background-color: aliceblue;
+    color: black;
+    font-size: large;
+    padding: 50px;
+    background-image: url("Images/Logo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    display: flex;
+    margin-top: 75px;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+    display: flex;
+    margin-bottom: 75px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ButtonColor {
+    text-decoration: none;
+    color: inherit;
+    transition: color ease 0.5s;
+}
+
+.ButtonColor:hover {
+    animation: ColorChange  10s infinite;
+    color: aliceblue;
+}
+
+@keyframes ColorChange {
+    0% {color: aliceblue;}
+    12% {color: red;}
+    
+}
